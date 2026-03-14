@@ -69,3 +69,16 @@ console.log(Math.min(10, 20, 30, 40)) // smallest number find karta hai
 console.log(Math.pow(2,3)) // power calculate karta hai 
 
 console.log(Math.sqrt(64)) // square reet nikalta hai 
+
+console.log(Math.trunc(4.9))
+console.log(Math.trunc(4.2)) //Decimal ka integer part deta hai (decimal hata deta hai)
+
+console.log(Math.sign(10))
+console.log(Math.sign(-10))
+console.log(Math.sign(0)) // number positive hai ya negative btata hai
+
+console.log(Math.cbrt(27)) // Cube root nikalta hai 
+
+console.log(Math.hypot(3,4))// multiple numbers ka square root of sum os squre nikalta hai 
+
+console.log(Math.PI) // pi ki value

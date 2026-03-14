@@ -81,7 +81,7 @@ obj2.name = "Rahul"
 console.log(obj1.name)
 
 
-// *************************************************************************************
+// ********************************Static and Dyanmic Type*****************************************************
 // JavaScript Static type hai ya Dynamic type?
 // JavaScript ek Dynamic Typed Language hai.
 
@@ -118,3 +118,36 @@ console.log(value);
 // Array	    object
 // Object	    object
 // Function	function
+// ******************************Stack and Heap memory********************************************
+// #Stack aur Heap Memory
+// JavaScript me memory 2 tarah se manage hoti hai:
+// 1 => Stack Memory
+// 2 => Heap Memory
+
+// 1 => Stack Memory => Primitive data types stack memory me store hote hain.
+// Value copy hoti hai
+// Original value change nahi hoti
+
+let a = 10
+let b = a
+b = 20
+
+console.log(a) 
+console.log(b) 
+
+// Yaha b ko copy mila hai, isliye a change nahi hua.
+
+// 2 => Heap Memory
+
+// Reference data types heap memory me store hote hain.
+// Reference (address) copy hota hai
+// Original value change ho sakti hai
+
+let user1 = {
+  name: "Priyanshu"
+}
+let user2 = user1
+user2.name = "Rahul"
+console.log(user1.name) 
+
+// Yaha user1 aur user2 same memory reference share kar rahe hain.

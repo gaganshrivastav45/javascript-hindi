@@ -109,4 +109,19 @@
 //   },
 // ];
 // console.log(user[1].email)
-console.log(user.hasOwnProperty("age"));
+// console.log(user.hasOwnProperty("age"));
+
+// ***********************Destructuring********************************************
+
+// const course ={
+//     courseName: "js in hindi",
+//     price: "999",
+//     courseInstructor:"Priyanshu"
+// }
+
+// // course.courseInstructor
+// const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+// console.log(instructor);
+
